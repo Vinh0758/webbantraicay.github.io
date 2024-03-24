@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-image: url(images/th.jfif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header img{
+            width: 120px;
+            text-align: center;
+            background-color: #fff;
+        }
+        h4 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        label {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        label span {
+            text-decoration: underline;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        button[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 3px;
+            background-color: #4caf50;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .DK{
+    display: block;
+    text-decoration: none;
+}
+.DK{
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
+button a{
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo-webtraicay.jpg" alt="">
+    </header>
+    <form action="">
+        <h4>Đăng ký</h4>
+        <input type="text" placeholder="Tên tài khoản">
+        <input type="email" placeholder="Email của bạn">
+        <input type="password" placeholder="Nhập mật khẩu">
+        <input type="password" placeholder="Nhập lại mật khẩu">
+        <div>
+            <label>
+                <div class="DK">
+                <input type="checkbox" required>
+                Tôi đồng ý với <a href="#" target="_blank">Điều khoản dịch vụ</a>
+                và
+                <a href="#" target="_blank">Chính sách bảo mật</a>
+            </div>
+            </label>
+        </div>
+        <button type="submit"><a href="dangnhap.html">Đăng ký</a></button>
+    </form>
+</body>
